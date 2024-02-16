@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable Icons</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Style for icon links */
+        .container {
+            position: absolute;
+            top: 50px; /* Adjust the top position as needed */
+            left: 50%; /* Align the container at the center horizontally */
+            transform: translateX(-50%); /* Adjust to center the container */
+            display: flex;
+            /*flex-direction: column; Display icons vertically */
+            align-items: center; /* Center icons horizontally */
+        }
+        .icon-link {
+            text-decoration: none;
+            color: #333; /* Change color as desired */
+            margin: 40px; /* Adjust spacing between icons */
+        }
+        .icon-link:hover {
+            color: #45a049; /* Change color on hover as desired */
+        }
+        .icon-link i {
+            font-size: 66px; /* Adjust the font size of the icons */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Icon links -->
+    <a href="home.html" class="icon-link"><i class="fas fa-home"></i></a>
+    <a href="page2.html" class="icon-link"><i class="fas fa-user"></i></a>
+    <a href="page3.html" class="icon-link"><i class="fas fa-cog"></i></a>
+</div>
+
+</body>
+</html>
