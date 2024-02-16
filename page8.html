@@ -11,7 +11,8 @@
     }
     .content-container {
       background-color: aliceblue;
-      width: 50%; /* Setting width of the content container */
+      width: 90%; /* Setting width of the content container */
+      max-width: 800px;
       margin: 0 auto; /* Centering the content container horizontally */
       border: 5px solid #45a059; /* Adding a solid border around the content */
       padding: 20px; /* Adding padding around the content */
@@ -20,12 +21,14 @@
     .specific-box {
       background-color: #ffe0b2; /* Setting background color for the specific box */
       padding: 10px; /* Adding padding inside the specific box */
+      margin-top: 20px;
     }
     h1 {
       font-size: 40px;
     }
     img {
       width: 100%; /* Making the image responsive */
+      max-width: 100%;
       height: auto; /* Ensuring aspect ratio is maintained */
       display: block; /* Ensuring proper layout */
       margin-bottom: 20px; /* Adding space below the image */
@@ -35,6 +38,16 @@
       color: #45a059;
       text-align: left; /* Aligning the list items to the left */
       display: inline-block; /* Ensuring the list is treated as a block element */
+      margin: 0;
+      padding-left: 0;
+    }
+     li {
+      margin-bottom: 10px; /* Adding space between list items */
+    }
+    iframe {
+      width: 100%; /* Making the video responsive */
+      max-width: 100%; /* Ensure video doesn't exceed container width */
+      height: 315px; /* Setting a fixed height for the video */
     }
   </style>
 </head>
